@@ -13,3 +13,13 @@ var ul = document.querySelector("ul");
 ul.addEventListener("click", function(event){
     alert("You just clicked on " + event.target.innerText);
 });
+
+/* global.localStorage
+
+localStorage.setItem("instructor", "Elie");
+localStorage.setItem("favoriteNumber", 18);
+localStorage.setItem("isHilarious", true);
+
+localStorage.getItem("instructor"); // "Elie"
+
+*/
